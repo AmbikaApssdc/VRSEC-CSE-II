@@ -1,0 +1,104 @@
+Version Control
+Local version Control
+Centralised Version Control
+Distributed version Control
+Git
+Command Line Interface
+Github
+Used for hosting
+---------------------
+Git
+files
+files add
+commit
+---------------------
+mkdir VRSEC ---> folder creation
+ls --> To see list of files/folders
+cd foldername --> To move to specific folder
+touch filename(with extension) - single file creation
+touch {a..d}.extenstion
+nano filename 
+To exit from nano editor -- ctrl + x and press enter
+cat filename
+ls -a --> To display hidden files
+----------------------------------
+git --version
+git init --> To initialize git 
+git config user.name
+git config --global user.name "username"
+git config --global user.email emailid
+touch filename
+git status --> To check the status
+git add filename --> 
+git commit -m "Commit Message"
+git log --> To See commits
+git log --oneline
+git checkout shakey
+git checkout master
+git add . --> To add all files to staging area
+git rm --cached filename --> To remove file from staging area
+git commit --amend -m "changed commit message" --> to change commit message
+git reset --hard HEAD^ --> to delete recent commit
+git reset --hard HEAD~2 --> To delete number of commits
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
