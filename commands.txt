@@ -8,8 +8,8 @@ Github
 Used for hosting
 ---------------------
 Git
-files
-files add
+create files
+add files 
 commit
 ---------------------
 mkdir VRSEC ---> folder creation
@@ -40,6 +40,88 @@ git rm --cached filename --> To remove file from staging area
 git commit --amend -m "changed commit message" --> to change commit message
 git reset --hard HEAD^ --> to delete recent commit
 git reset --hard HEAD~2 --> To delete number of commits
+---------------------------------------------------------
+git remote add remotename giturl --> To create remote
+git remote
+git remote -v --> To see remotes
+git push remotename branchname
+git pull remotename branchname
+---------------------------------------------
+create a practice folder in VRSEC, create new files in that 
+folder and push them in to new repository in GITHUB
+-----------------------------------------------
+cloning---dowloading a project from to remote to local
+git clone url
+git rev-list HEAD --count --> To count commits
+git log --oneline --since="date-month-year"
+git log --oneline --until="date-month-year"
+git log --oneline --since="date-month-year" --until="date-month-year"
+-----------------------------------
+branching 
+git branch --> To check branch
+git branch branchname
+git checkout branchname
+git push remotename branchname
+git merge branchname
+git branch -d branchname (After merge)
+git branch -D branchname(Before Merge)
+git push remotename --delete branchname(In remote repo)
+-------------------------------------------------------
+forking
+https://github.com/apssdcgit
+
+contribute
+1.fork
+2.clone
+3.create new branch and make changes
+4. push those changes with that branch
+5. Compare and pull request
+----------------------------------------
+collaborate
+--------------------------------------
+markdown
+------------------------------------
+profile host
+------------------------------------
+Technical documentation
+1. Install python in your system
+2. pip install sphinx
+3. sphinx-quickstart
+	a. y/n - choose No
+	b. Give Project Name
+	c. Author name
+	d. Release -- give 1
+	e. Language -- English
+4. 4 files will be generated
+	1.conf.py
+	2.Makefile
+	3.Index.rst
+	4.make.bat
+5. conf.py --> 
+6. Index.rst 
+
+
+
+
+https://bit.ly/3pxYFjA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
